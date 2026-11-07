@@ -35,3 +35,43 @@ Place `team_tracker_server.py` in your local project folder (or directly inside 
 ### 3. Install Dependencies
 ```bash
 pip install fastmcp
+```
+## Configure VS Code MCP
+Register the server in your VS Code user or workspace MCP configuration file (mcp.json):
+
+```json
+{
+  "servers": {
+    "team-todo-tracker": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["/absolute/path/to/your/team_tracker_server.py"]
+    }
+  }
+}
+```
+
+## 💡 Example Prompts to Try in Copilot Chat (Agent Mode)
+Make sure your Copilot chat is set to Agent Mode, then try these commands:
+
+**Adding a Task:**
+
+  `"Add a task to review the failed test cases, assign it to Rahul, and set the due date to Current Sprint."`
+
+**Parsing Meeting Notes:**
+
+`"Here are the notes from today's sync: [Paste MoM text]. Extract all action items, assign them to respective members, and add them to the tracker."`
+
+**Filtering Tasks:**
+
+`"Show all tasks assigned to Rahul that are currently blocked."`
+
+**Updating Task Status & Remarks:**
+
+`"Mark task #4 as blocked and add a remark: 'Waiting for API credentials from the vendor'."`
+
+**Deleting a Task:**
+`"Delete task #2 from the tracker."`
+
+
+"Delete task #2 from the tracker."
