@@ -2,6 +2,8 @@
 
 A lightweight, local-first **Model Context Protocol (MCP)** server built to help engineering teams track tasks, manage sprint timelines, and parse Minutes of Meeting (MoM) directly through natural language inside **VS Code** using **GitHub Copilot**.
 
+https://dev.to/elzajose/building-your-first-model-context-protocol-mcp-server-a-team-task-tracker-with-fastmcp-and-sqlite-2cbf
+
 ---
 
 ## ✨ Key Features
