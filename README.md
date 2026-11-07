@@ -71,7 +71,6 @@ Make sure your Copilot chat is set to Agent Mode, then try these commands:
 `"Mark task #4 as blocked and add a remark: 'Waiting for API credentials from the vendor'."`
 
 **Deleting a Task:**
+
 `"Delete task #2 from the tracker."`
 
-
-"Delete task #2 from the tracker."
